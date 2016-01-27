@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "D3.js"
+date:   2016-01-27 00:17:36 +0100
+categories: frontend framework D3
+---
+<img src="https://thumbsplus.tutsplus.com/uploads/users/442/posts/22935/preview_image/8778.png?height=300&width=300">
+<blockquote>
+Quelle: <a href="http://code.tutsplus.com/tutorials/building-a-multi-line-chart-using-d3js--cms-22935">code.tutsplus.com</a> | <a href="http://d3js.org/">d3js.org</a>
+</blockquote>
+<h1>Einführung in D3</h1>
+
+Bei D3 handelt es sich um eine freie und kompakte von Mike Bostock entwickelte JavaScript Bibliothek zur effizienten Manipulation von datenbasierten Dokumenten. D3 gilt als Nachfolger von Protovis und ermöglicht die Bindung von beliebigen Daten an das Document Object Model (DOM) und deren anschließende Transformation. [1]
+D3 kann dabei zur Implementierung von trivialen Aufgaben, wie bspw. der Generierung einer HTML-Tabelle aus einer Datenmenge bis hin zur Implementierung von gerichteten, gewichteten Graphen als SVG verwendet werden.
+D3 sollte nicht als reine Visualisierungsbibliothek verstanden werden, sondern als eine universelle Bibliothek zur Manipulation von datenbasierten Dokumenten. Dabei lassen sich Webtechnologien wie HTML5, CSS3 und SVG auf einfache Weise einbinden.
+Der Fokus von D3 liegt zum einen auf der Effizienz der Datenverarbeitung/Datenauswertung, auf der anderen Seite kann die Bibliothek auch mit großen Datenmengen umgehen und bietet die bestmögliche Performance.
+Sie bietet eine breite Auswahl an Möglichkeiten zur Interaktion und Animation, so dass sich auch sehr dynamische Anwendungen mittels D3 implementieren lassen.
+
+<h2>Installation:</h2>
+
+Installiert wird D3 entweder per script-code snippet,
+
+{% highlight html %}
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+{% endhighlight %}
+
+per Download der neuesten Version von <a href="https://github.com/mbostock/d3/releases">Git</a>,
+oder per Installation einer der folgenden Package Managern:
+<blockquote>
+D3 is also available via numerous package managers, including: <a href="https://npmjs.org/package/d3">NPM</a> (Node.js), <a href="http://bower.io/search/?q=d3">Bower</a>, <a href="http://browserify.org/">Browserify</a>, <a href="http://component.io/">Component</a>, <a href="http://jamjs.org/packages/#/details/d3">Jam</a>, <a href="https://packagist.org/packages/mbostock/d3">Composer / Packagist</a> (PHP), <a href="https://spmjs.org/gallery/d3/">SPM</a>, <a href="http://jspm.io/">JSPM</a>, <a href="https://www.nuget.org/packages/d3/">NuGet</a> (.Net), and <a href="https://github.com/amdjs/amdjs-api/blob/master/AMD.md">AMD</a> (e.g., <a href="http://requirejs.org/">RequireJS</a>). The official releases of D3 are on <a href="https://npmjs.org/package/d3">NPM</a> and <a href="/mbostock/d3">GitHub</a> only; support for other package managers is unofficial and maintained by contributors.
+</blockquote>
+<br>
+[2] Auszug aus verschiedenen D3-Modulen (Inhalt von d3):
+<blockquote>
+<ul>
+    <li>d3.js: D3.js Kern, Selektionen, Transitionen, Skalierung, Array-Operationen, String-Formatierungen, SVG Shape Generator, Drag & Drop, Zoom etc.</li>
+    <li>d3.chart.js: Charts</li>
+    <li>d3.csv.js: CSV Parsing, CSV Processing etc.</li>
+    <li>d3.geo.js: Geoprojektionen, Pfadoperationen etc.</li>
+    <li>d3.geom.js: Konturenpolygone für Vertices als Eingabe, Voronoi Diagramme, Delaunay Triangulation, konvexe Hüllen etc.</li>
+    <li>d3.layout.js: Algorithmen, physikalische Modelle & Layouts für Diagramme, Graphen, Dendrograme, Histogramme etc.</li>
+    <li>d3.time.js: Zeitformatierung, Zeitintervalle etc.</li>
+</ul>
+</blockquote>
+<br>
+<h3>Auswahl von DOM-Elementen:</h3>
+Eine Grundfunktion von D3 besteht darin, Elemente innerhalb des DOM-Baumes zu selektieren, um diese bspw. modifizieren zu können.
+D3.js bietet eine Vielzahl von Methoden, um DOM-Knoten zu modifizieren. Zum einen können Attribute und Styles auf DOM-Knoten angewendet und Event-Listener an diese gebunden werden. Neue Knoten können hinzugefügt und bestehende verändert bzw. gelöscht werden. Zum anderen kann der Inhalt (sowohl HTML als auch Text) verändert werden.
+<br>
+<h3>Transformationen:</h3>
+D3 bietet im Gegensatz zu manch anderen frameworks von sich aus <u>keine Repräsenation für Graphen, Bäume, Charts etc.</u>, sondern setzt vollständig auf <strong>HTML5, CSS3 und SVG</strong>. Damit wird man als Entwickler nicht an ein bestimmtes Framework gebunden, sondern profitiert stets von den Erweiterungen, die neue Browserversionen mit sich bringen.
+D3 kann nicht nur bestehende Elemente transformieren, sondern auch neue DOM Elemente generieren. Das Aussehen dieser Elemente wird vollständig mittels CSS3 festgelegt. D3 bringt somit auch keine eigene Beschreibungssprache für derartige Anwendungen mit sich, sondern verwendet für grafische Darstellung vollständig HTML5, CSS3 und SVG.
+D3 operiert hierbei vollständig auf dem Document Object Model (DOM) und verwendet diesen als eine Art Szenengraphen.
+<br>
+<h3>Transitions / Übergänge:</h3>
+Da D3 von sich aus keine grafische Repräsentation bietet, sondern mit Transformationen arbeitet, bietet die Bibliothek eine Vielzahl von Transitions an, mit deren Hilfe sich optische Effekte, sowie Animationen realisieren lassen. <u>Eine Transition beschreibt eine schrittweise Interpolation zwischen zwei Zuständen von Attributen, Styles etc. im zeitlichen Kontext.</u>
+D3 implementiert eine Vielzahl von Interpolationsfunktionen, um das Tweening, also die Generierung der zwischen dem Anfangs- und Endzustand benötigten Zwischenbilder, zu steuern (bspw. lineares Tweening, elastisches Tweening, Cubic-In, Cubic-Out etc.).
+<br>
+<h3>Eigene Meinung:</h3>
+D3 bietet ein umfangreiches Toolkit um alle möglichen Datenvisualisierungen durchführen zu können.
+Am allermeisten gefällt mir an D3, dass keine eigene Auszeichnungssprache verwendet wird, sondern komplett auf HTML5, CSS und SVG zurückgegriffen wird.
+Zusammen mit mächtigen APIs können so sehr anschauliche und wesentlich einprägsamere Verbindungen zwischen Daten hergestellt werden.
+<br>
+Die von mir umgesetzten D3-Varianten findest du auf <a href="https://github.com/dagopert/assignment-frontend_nico_deufemia/tree/master/06-diagrams">GitHub</a>.
+<br><br>
+<hr>
+<small>
+[1] D3 GitHub<a href="https://github.com/mbostock/d3/wiki">Wiki</a><br>
+[2] Asconix Tutorial: <a href="http://www.asconix.com/howtos/javascript/d3-js-introduction">Einführung in D3</a>
+<ul>
+    <li><small><a href="https://en.wikipedia.org/wiki/D3.js">Wikipedia D3.js</a></small></li>
+    <li><small><a href="https://www.dashingd3js.com/table-of-contents">Dashing D3.js</a></small></li>
+</ul>

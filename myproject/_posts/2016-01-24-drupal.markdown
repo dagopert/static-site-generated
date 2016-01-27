@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Drupal"
+date:   2016-01-24 20:12:57 +0100
+categories: cms drupal
+---
+<img src="https://www.drupal.org/files/drupal%208%20logo%20inline%20CMYK%2072.png">
+<blockquote>
+Quelle: <a href="https://www.drupal.org/about/media-kit/logos">drupal.org</a>
+</blockquote>
+Mit Drupal lassen sich, wie mit anderen Content-Management-Systemen (CMS) auch, Inhalte ins Internet stellen und bearbeiten. Drupal unterscheidet sich von anderen CMS vor allem durch die Umsetzung von Ansätzen einer Social Software und unterstützt damit den Aufbau von Communitys, die gemeinsam an Inhalten arbeiten und sich über Themen austauschen und informieren wollen. So können Nutzer beispielsweise eigene Weblogs anlegen, sich in Foren austauschen oder Artikel veröffentlichen. Es wird ein differenziertes Rollen- und Rechtesystem unterstützt.
+
+Neben anderen bekannten CMS wie z. B. WordPress, Joomla und <a href="http://localhost:4000/cms/typo3/2016/01/24/typo3.html">TYPO3</a> hat es mit seinem spezifischen Ansatz einen Platz unter den „großen“ PHP-basierten Open-Source-CMS etablieren können. Drupal hat eine starke Online-Community, die ihre Mitglieder aktiv unterstützt. Außerdem gibt es auch im deutschsprachigen Raum Unternehmen, die kommerziellen Support anbieten und Entwicklung professionell betreiben.
+
+Drupal besteht aus einem Core (deutsch Kern), der die Grundfunktionalität liefert, und Modulen, die zusätzliche Funktionen bieten und dem System bei Bedarf hinzugefügt werden können.
+Es werden insgesamt über 33.000 Modul-Projekte (vollwertige Module) sowie über 14.800 „Sandbox“-Projekte auf drupal.org verwaltet. [1]
+Durch den modularen Aufbau von Drupal sind vielseitige Verwendungsmöglichkeiten vorhanden. Die Liste reicht von „Ein-Personen-Websites“ wie beispielsweise persönlichen Weblogs bis hin zu Online-Communitys mit tausenden Mitgliedern.
+
+Drupal steht in seiner heutigen Form in der Version 7.41 unter der GNU-GPL-Lizenz zur Verfügung. Das System basiert auf PHP 5.2.5 und unterstützt die Datenbanken MySQL 5.0.15, PostgreSQL 8.3 (beide mit PDO) und SQLite 3.3.7. MSSQL und Oracle werden mit Hilfe zusätzlicher Module unterstützt. Die Markteinführung erfolgte 2001. Drupal 8 erschien Anfang Dezember 2015. [2]
+
+<strong>Vorteile:</strong>
+Neben den Grundfunktionen eines Content-Management-Systems liegt der Fokus von Drupal im Aufbau von Social-Publishing- und Community-Portalen, wo Mitglieder eigene Inhalte erstellen und mit anderen Teilnehmern interagieren können. Die Grundinstallation ist extrem schlank, bietet aber bereits viele Web-2.0- und Community-Features wie zum Beispiel Weblogs, Foren und Tag Clouds.
+Die Verwaltung der Inhalte erfolgt dabei, wie bei Wordpress und Joomla, objektbasierend. Der modulare Aufbau von Drupal ermöglicht die Umsetzung von individuellen und komplexen Seitenstrukturen. Multidomain-Management ist ein Thema, das Drupal problemlos unterstützt. Die Verwaltung eines Cores mit Erweiterungen und gemeinsamen Benutzern ist in der Multidomain-Umgebung über mehrere Seiten hinweg möglich.
+Dies führt jedoch dazu, dass die Konfiguration des Systems weitaus aufwendiger ist als bei Wordpress oder Joomla. Die stark ausgeprägte Community bietet für jegliche Fragestellungen aktive und fundierte Antworten.
+
+<strong>Nachteile:</strong>
+Die schlanke Grundinstallation hat zur Folge, dass sehr viele Module nachinstalliert werden müssen. Deren Installation kann dabei leider nicht über die Administrationsfläche erfolgen, sondern nur per FTP. Viele Module stehen in Abhängigkeit zu anderen und erschweren die Aktualisierung. Zudem sind viele leider nicht abwärtskompatibel!
+
+<strong>Fazit:</strong>
+Fazit: Drupal ist für den Einsatz als Social-Publishing- oder Community-Portal mit dem Schwerpunkt Web 2.0 als Internet, Extranet oder Intranet prädestiniert. Durch den modularen Aufbau können aber auch Portale für Unternehmen und Konzerne realisiert werden. Allerdings ist Drupal im Bereich Freigabeprozesse nicht so stark wie <strong><a href="http://localhost:4000/cms/typo3/2016/01/24/typo3.html">TYPO3</a></strong>.
+
+<br><br>
+<hr>
+<small>
+[1] Drupal Download&Extend <a href="https://www.drupal.org/project/project_module">Drupal.org</a><br>
+[2] Drupal Release: <a href="https://www.drupal.org/node/3060/release">Drupal.org</a><br>
+weitere Quellen:</small>
+<ul>
+    <li><small><a href="http://whichcmstochoose.com/drupal.html">whichcmstochoose.com</a></small></li>
+    <li><small><a href="http://www.visual4.de/open-source-cms-system/cms-vergleich-joomla-wordpress-typo3-drupal-contao-plone.html">Visual4.de</a></small></li>
+</ul>

@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "TYPO3"
+date:   2016-01-24 19:27:29 +0100
+categories: cms typo3
+---
+<img src="https://typo3.org/fileadmin/t3org/images/FM-styleguide/1_TYPO3_Logos/TYPO3_logo_safearea.png">
+<blockquote>
+Quelle: <a href="https://typo3.org/about/the-brand/style-guide/the-typo3-logo/">typo3.org</a>
+</blockquote>
+TYPO3 ist wohl das bekannteste Open-Source-CMS überhaupt, weist über acht Millionen Downloads auf und kommt verstärkt im europäischen Raum zum Einsatz. [1]
+Das Enterprise-Content-Management-System wird in über 50 Sprachen sowie mit über 5000 Erweiterungen angeboten. Die Community ist sehr stark und zählt über 100.000 Mitglieder, die sich aktiv an der Weiterentwicklung beteiligen.
+
+TYPO3 wurde 2001 veröffentlicht und steht aktuell in der Version 7.6.2 unter der GNU-GPL-Lizenz zur Verfügung. TYPO3 basiert auf PHP 5.3.7 sowie JAvascript und unterstützt die DAtenbanken MySQL 5.1x, PostrgreSQL und Oracle.
+Zusätzlich werden weitere PHP-Module wie zlib, Graphics- oder ImageMagick empfohlen. Die Systemanforderungen variieren jedoch je nach eingesetzter Version des Systems. Die aktuelle LTS-Version ist die 6.2. [2]
+
+<strong>Vorteile:</strong>
+ TYPO3 beinhaltet alle Funktionen, die ein Enterprise-Content-Management-System auszeichnen. In der Grundinstallation wird bereits eine multilinguale Unterstützung mit Fallback-Funktion bereitgestellt.
+ Eine Multidomain-Unterstützung, um mehrere Seiten über eine TYPO3-Installation zu verwalten, wird ebenfalls ermöglicht. Die integrierte Rechteverwaltung ist sehr umfangreich und ermöglicht den Administratoren, unterschiedliche Rollen und Rechte für die Benutzer einzurichten.
+ Der Administrator kann unter anderem festlegen, welche Eingabefelder von Inhaltselementen gesehen oder bearbeitet werden können.
+
+In diesem Zusammenhang können in TYPO3 auch die Freigabeprozesse individuell über so genannte Workspaces definiert und abgebildet werden.
+Der modulare Aufbau, die starke Konfigurationssprache Typoscript und die Möglichkeit, Veränderungen des Codes mit XClasses lokal auszulagern, machen TYPO3 nahezu unbegrenzt erweiterbar und anpassbar.
+Ferner erlauben sie so eine unkomplizierte Anbindung an weitere Systeme wie zum Beispiel ERP- oder CRM-Lösungen.
+Die LTS Version (Long Term Support) bietet den Unternehmen einen sehr hohen Grad an Service und Support in Bezug auf die Kompatibilität der Erweiterungen, <u>welche bei Drupal und Joomla nicht immer gewährleistet ist</u>.
+Sicherheits-Updates haben bei TYPO3 grundsätzlich einen sehr hohen Stellenwert.
+
+<strong>Nachteile:</strong>
+Die Lernkurve ist im Vergleich zu den anderen Systemen eher flach, und die Installation, Konfiguration und Administration erfordert Fachkenntnisse, um TYPO3-Fehler zu vermeiden. Hier bieten jedoch eine Vielzahl an Büchern und Dokumentationen Hilfe.
+Die Anforderungen an die Hosting-Umgebung werden nicht von allen Providern standardmäßig unterstützt und sollten im Vorfeld geklärt werden.
+
+<strong>Fazit:</strong>
+TYPO3 hebt sich durch Long-Term-Support, sehr guter Verbreitung, Entwicklung und Community-Unterstützung hervor,
+bietet aber nicht mehr ganz so aktuelle Lösungen im WYSIWYG-Bereich an und erfordert viele Vorkenntnisse bzw. lange Einarbeitungszeit und Schulungen für Kunden.
+
+<blockquote>"Typo3 ist sehr gut skalierbar und wächst mit dem Unternehmen. Sollten später weitere oder höhere Anforderungen als beim Start hinzukommen, muss das CMS nicht gewechselt werden. Darüber hinaus ist Typo3 sehr flexibel und für fast alle denkbaren Anwendungsfälle einsetzbar."
+<br>Kai-Michael Rauch, <a href="http://www.rauch-media.de/">Rauch Media</a></blockquote>
+
+<br><br>
+<hr>
+<small>
+[1] Typo3 in numbers: <a href="https://typo3.org/home/typo3-in-numbers/">Typo3.org</a><br>
+[2] Typo3 Blueprints/Release: <a href="https://wiki.typo3.org/Blueprints/Release">Typo3.org</a><br>
+weitere Quellen:</small>
+<ul>
+    <li><small><a href="http://www.computerwoche.de/a/die-besten-kostenlosen-cms,2511266,5">Computerwoche.de</a></small></li>
+    <li><small><a href="http://www.visual4.de/open-source-cms-system/cms-vergleich-joomla-wordpress-typo3-drupal-contao-plone.html">Visual4.de</a></small></li>
+</ul>
