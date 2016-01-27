@@ -10,7 +10,7 @@ Quelle: <a href="https://www.drupal.org/about/media-kit/logos">drupal.org</a>
 </blockquote>
 Mit Drupal lassen sich, wie mit anderen Content-Management-Systemen (CMS) auch, Inhalte ins Internet stellen und bearbeiten. Drupal unterscheidet sich von anderen CMS vor allem durch die Umsetzung von Ansätzen einer Social Software und unterstützt damit den Aufbau von Communitys, die gemeinsam an Inhalten arbeiten und sich über Themen austauschen und informieren wollen. So können Nutzer beispielsweise eigene Weblogs anlegen, sich in Foren austauschen oder Artikel veröffentlichen. Es wird ein differenziertes Rollen- und Rechtesystem unterstützt.
 
-Neben anderen bekannten CMS wie z. B. WordPress, Joomla und <a href="http://localhost:4000/cms/typo3/2016/01/24/typo3.html">TYPO3</a> hat es mit seinem spezifischen Ansatz einen Platz unter den „großen“ PHP-basierten Open-Source-CMS etablieren können. Drupal hat eine starke Online-Community, die ihre Mitglieder aktiv unterstützt. Außerdem gibt es auch im deutschsprachigen Raum Unternehmen, die kommerziellen Support anbieten und Entwicklung professionell betreiben.
+Neben anderen bekannten CMS wie z. B. WordPress, Joomla und <a href="http://dagopert.github.io/static-site-generated/frontend/framework/d3/2016/01/26/d3.html">TYPO3</a> hat es mit seinem spezifischen Ansatz einen Platz unter den „großen“ PHP-basierten Open-Source-CMS etablieren können. Drupal hat eine starke Online-Community, die ihre Mitglieder aktiv unterstützt. Außerdem gibt es auch im deutschsprachigen Raum Unternehmen, die kommerziellen Support anbieten und Entwicklung professionell betreiben.
 
 Drupal besteht aus einem Core (deutsch Kern), der die Grundfunktionalität liefert, und Modulen, die zusätzliche Funktionen bieten und dem System bei Bedarf hinzugefügt werden können.
 Es werden insgesamt über 33.000 Modul-Projekte (vollwertige Module) sowie über 14.800 „Sandbox“-Projekte auf drupal.org verwaltet. [1]
@@ -27,7 +27,7 @@ Dies führt jedoch dazu, dass die Konfiguration des Systems weitaus aufwendiger 
 Die schlanke Grundinstallation hat zur Folge, dass sehr viele Module nachinstalliert werden müssen. Deren Installation kann dabei leider nicht über die Administrationsfläche erfolgen, sondern nur per FTP. Viele Module stehen in Abhängigkeit zu anderen und erschweren die Aktualisierung. Zudem sind viele leider nicht abwärtskompatibel!
 
 <strong>Fazit:</strong>
-Fazit: Drupal ist für den Einsatz als Social-Publishing- oder Community-Portal mit dem Schwerpunkt Web 2.0 als Internet, Extranet oder Intranet prädestiniert. Durch den modularen Aufbau können aber auch Portale für Unternehmen und Konzerne realisiert werden. Allerdings ist Drupal im Bereich Freigabeprozesse nicht so stark wie <strong><a href="http://localhost:4000/cms/typo3/2016/01/24/typo3.html">TYPO3</a></strong>.
+Fazit: Drupal ist für den Einsatz als Social-Publishing- oder Community-Portal mit dem Schwerpunkt Web 2.0 als Internet, Extranet oder Intranet prädestiniert. Durch den modularen Aufbau können aber auch Portale für Unternehmen und Konzerne realisiert werden. Allerdings ist Drupal im Bereich Freigabeprozesse nicht so stark wie <strong><a href="http://dagopert.github.io/static-site-generated/frontend/framework/d3/2016/01/26/d3.html">TYPO3</a></strong>.
 
 <br><br>
 <hr>
