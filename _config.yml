@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Dieser Blog wurde mit Hilfe von Jekyll, einem der besten und meistverwendeten
   Static-Site-Generatoren erzeugt. In diesem Blog berichte ich über meine Erfahrungen
   mit TYPO3, Drupal und der D3 Übung aus Frontend.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/static-site-generated" # the subpath of your site, e.g. /blog
+url: "https://dagopert.github.io/static-site-generated" # the base hostname & protocol for your site
 twitter_username: dagopert
 github_username:  dagopert
 
